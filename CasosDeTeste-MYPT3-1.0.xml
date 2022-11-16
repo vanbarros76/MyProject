@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>MYP</projectKey>
+    <exportDate>2022-11-15 14:17:03 UTC</exportDate>
+    <folders>
+        <folder fullPath="Fianceiro/Faturas" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="60725104" key="MYP-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vanessa Alves de Barros</createdBy>
+            <createdOn>2022-11-13 16:03:24 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>5400000</estimatedTime>
+            <folder><![CDATA[Fianceiro/Faturas]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Enviar cópia da fatura]]></name>
+            <objective><![CDATA[Enviar uma c&oacute;pia de cada fatura paga para o email registrado do usu&aacute;rio.]]></objective>
+            <owner>6363e5e076b91b62562fd823</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Objetivo: verificar se a fatura está aprovada (paga).
+And Passos: verificação aprovada, então imprimir uma cópia em PDF.
+And Enviar a cópia da fatura paga para o email do usuário.
+Then Resultado esperado: cópia da fatura enviada com sucesso.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

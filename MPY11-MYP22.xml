@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>MYP</projectKey>
+    <exportDate>2022-11-13 17:12:24 UTC</exportDate>
+    <folders>
+        <folder fullPath="Fianceiro/Faturas" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="60724927" key="MYP-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vanessa Alves de Barros</createdBy>
+            <createdOn>2022-11-13 14:28:22 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>5400000</estimatedTime>
+            <folder><![CDATA[Fianceiro/Faturas]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Imprimir Faturas]]></name>
+            <objective><![CDATA[Verificar a impress&atilde;o da fatura.<br /><br />]]></objective>
+            <owner>6363e5e076b91b62562fd823</owner>
+            <precondition><![CDATA[Cache limpo do navegador]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Verificar a impress&atilde;o das faturas de um determinado per&iacute;odo.<br /><br />]]></description>
+                        <expectedResult><![CDATA[Per&iacute;odo selecionado.]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Selecionar per&iacute;odo, data de in&iacute;cio de data fim.]]></description>
+                        <expectedResult><![CDATA[Fatura impressa com sucesso.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="60725100" key="MYP-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vanessa Alves de Barros</createdBy>
+            <createdOn>2022-11-13 16:01:43 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>5400000</estimatedTime>
+            <folder><![CDATA[Fianceiro/Faturas]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Conferir Fatura]]></name>
+            <objective><![CDATA[Ter certeza de que a fatura do usu&aacute;rio est&aacute; em dia com a data de pagamento do curso comprado.]]></objective>
+            <owner>6363e5e076b91b62562fd823</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Conferir se a fatura do usu&aacute;rio est&aacute; paga.]]></description>
+                        <expectedResult><![CDATA[Fatura paga com sucesso.]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Conferir se todos os dados da fatura do usu&aacute;rio est&atilde;o corretos.]]></description>
+                        <expectedResult><![CDATA[Fatura conferida com sucesso.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Disponibilizar a fatura em PDF para que seja enviada ao usu&aacute;rio, via email.]]></description>
+                        <expectedResult><![CDATA[Fatura conferida com sucesso.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="60725104" key="MYP-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Vanessa Alves de Barros</createdBy>
+            <createdOn>2022-11-13 16:03:24 UTC</createdOn>
+            <customFields/>
+            <estimatedTime>5400000</estimatedTime>
+            <folder><![CDATA[Fianceiro/Faturas]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Enviar cópia da fatura]]></name>
+            <objective><![CDATA[Enviar uma c&oacute;pia de cada fatura paga para o email registrado do usu&aacute;rio.]]></objective>
+            <owner>6363e5e076b91b62562fd823</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Objetivo: verificar se a fatura está aprovada (paga).
+And Passos: verificação aprovada, então imprimir uma cópia em PDF.
+And Enviar a cópia da fatura paga para o email do usuário.
+Then Resultado esperado: cópia da fatura enviada com sucesso.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
